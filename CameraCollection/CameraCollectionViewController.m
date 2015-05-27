@@ -59,4 +59,12 @@
     return self.faces.count;
 }
 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        //Camera actions
+    } else {
+        
+    }
+}
+
 @end
